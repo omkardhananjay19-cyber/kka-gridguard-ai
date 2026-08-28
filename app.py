@@ -17,7 +17,7 @@ warnings.filterwarnings('ignore')
 
 # Page config
 st.set_page_config(
-    page_title="🔌 AI Power Outage Prediction",
+    page_title="Tejasree AI Power Outage Prediction & Grid Risk Mapping",
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -73,7 +73,7 @@ if outage_data is None or model is None:
     st.stop()
 
 # ====== MAIN DASHBOARD ======
-st.title("🔌 AI Power Outage Prediction & Grid Risk Mapping")
+st.title("Tejasree AI Power Outage Prediction & Grid Risk Mapping")
 st.markdown("*Predictive maintenance for electricity grids*")
 
 # ====== SIDEBAR: NAVIGATION ======
